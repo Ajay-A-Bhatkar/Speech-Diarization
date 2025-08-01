@@ -221,7 +221,7 @@ aligned_result = whisperx.align(
 )
 
 # === DIARIZATION ===
-diarize_model = DiarizationPipeline(use_auth_token="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")
+diarize_model = DiarizationPipeline(use_auth_token="YOUR_HF_TOKEN")
 diarize_segments = diarize_model(cleaned_audio)
 
 # === SPEAKER EMBEDDINGS & XGBOOST CLASSIFICATION ===
