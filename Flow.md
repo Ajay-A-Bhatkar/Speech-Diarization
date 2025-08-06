@@ -11,6 +11,23 @@
 7. **Result Merging and Output (Excel Export)**
 8. **Deployment / Usability**
 
+## Key Libraries/Modules and Their Roles
+
+| Library/Module               | Purpose                                               |
+|------------------------------|------------------------------------------------------|
+| ffmpeg-python                | Audio format conversion and normalization            |
+| torchaudio + torch           | Audio loading, resampling, segmenting                |
+| speechbrain                  | Speaker embedding extraction (ECAPA-TDNN model)      |
+| xgboost (XGBClassifier)      | Speaker label classification                         |
+| sklearn LabelEncoder         | Encode/decode speaker name <–> integer mapping       |
+| joblib                       | Store/fetch trained models and encoders              |
+| whisperx                     | Transcription, alignment, diarization (ASR) pipeline |
+| pyannote.audio (via whisperx)| Speaker diarization backend                          |
+| gender-guesser               | Guess gender from predicted speaker name             |
+| pandas                       | Data processing, tabular structuring, Excel export   |
+| BytesIO                      | In-memory transfer for downloadable Excel            |
+
+
 ## **Detailed Stage-by-Stage Explanation**
 
 ### **1. Audio Data Preparation**
