@@ -1,12 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# okay now i want the flow of my project and the understanding of the code for my presentation which is tommorow so i will give you the ipynb file tell tell eveerything for my presentatinon
-
-ddont give me streamlit code pay attention to my prompt
-
-Sure, here is the detailed understanding and flow of your Speech Diarization project, breaking down the process step-by-step, to help you prepare for your presentation. This overview also explains the core components of your code:
-
-## **Speech Diarization Project Workflow and Code Understanding**
+## **Speech Diarization Project Workflow**
 
 ### **1. Objective**
 
