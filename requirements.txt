@@ -1,0 +1,21 @@
+torchaudio
+speechbrain
+scikit-learn
+joblib
+openpyxl
+ffmpeg-python
+whisperx @ git+https://github.com/m-bain/whisperx.git
+whisper @ git+https://github.com/openai/whisper.git
+gender-guesser
+pandas
+numpy
+
+# === INSTALL DEPENDENCIES ===
+
+# !pip install -q speechbrain torchaudio xgboost scikit-learn joblib
+# !pip install git+https://github.com/openai/whisper.git
+# !pip install git+https://github.com/m-bain/whisperx.git
+# !pip install git+https://github.com/snakers4/silero-vad.git
+# !pip install openpyxl gender-guesser ffmpeg-python
+# !pip install soundfile
+# !pip install "numpy<2"
