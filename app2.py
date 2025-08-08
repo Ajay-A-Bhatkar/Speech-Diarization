@@ -26,7 +26,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 compute_type = "float16" if device == "cuda" else "float32"  # Use float32 on CPU
 
 # Hardcoded Hugging Face token (Replace with your own token)
-HF_TOKEN = "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"
+HF_TOKEN = "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"
 
 # Cache speaker embedding model loading to improve performance
 @st.cache_resource(show_spinner=False)
@@ -223,3 +223,4 @@ if st.button("Run Diarization & Speaker Identification"):
             file_name="diarization_results.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
+
