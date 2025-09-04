@@ -16,18 +16,6 @@ This repository provides a comprehensive pipeline for **speech diarization**, **
 
 ---
 
-## Repository Structure
-.
-├── speech_model-2-1.py # Main pipeline script (preprocessing, training, inference)
-├── sample_data/ # Folder containing training data: organized per speaker
-├── pretrained_models/ # Cached pretrained models from SpeechBrain, etc.
-├── xgb_classifier.joblib # Trained XGBoost model (generated after training)
-├── label_encoder.joblib # Label encoder for speaker labels (generated after training)
-└── whisperx_diarization_output.xlsx # Output Excel file after diarization and transcription
-
-
----
-
 ## Setup Instructions
 
 ### 1. Clone the repository
