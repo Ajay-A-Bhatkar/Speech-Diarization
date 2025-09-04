@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-"""Speech_Model.ipynb"""
-
 import os
 import torchaudio
 
@@ -108,7 +105,7 @@ for speaker_folder in os.listdir(dataset_path):
 le = LabelEncoder()
 y_encoded = le.fit_transform(y)
 
-# Stratified split for balanced evaluation
+# Stratified split
 X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.3, stratify=y_encoded, random_state=42
 )
@@ -140,7 +137,7 @@ print("Label encoder saved as label_encoder.joblib")
 # !pip install git+https://github.com/snakers4/silero-vad.git
 # !pip install openpyxl gender-guesser ffmpeg-python
 
-# === IMPORTS FOR INFERENCE ===
+## ===== Inferencing =====
 import sys
 import ffmpeg
 import whisperx
